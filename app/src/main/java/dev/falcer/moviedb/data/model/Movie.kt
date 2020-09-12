@@ -1,4 +1,4 @@
-package dev.falcer.moviedb.data.response
+package dev.falcer.moviedb.data.model
 
 
 import com.squareup.moshi.Json

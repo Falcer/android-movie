@@ -21,10 +21,12 @@ android {
 
     buildTypes {
         debug {
-            buildConfigField "String", "API_TOKEN", "\"<<API TOKEN HERE>>\""
+            buildConfigField "String", "API_TOKEN", "\"f47dd4775b97c0f65fd31bbb6f452376\""
+            buildConfigField "String", "API_URL", "\"https://api.themoviedb.org/3/\""
         }
         release {
-            buildConfigField "String", "API_TOKEN", "\"<<API TOKEN HERE>>\""
+            buildConfigField "String", "API_TOKEN", "\"f47dd4775b97c0f65fd31bbb6f452376\""
+            buildConfigField "String", "API_URL", "\"https://api.themoviedb.org/3/\""
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MovieDB</string>
+    <string name="splash_screen_logo">Splash Screen Logo</string>
+    <string name="up_coming">Up Coming</string>
+    <string name="categories">Categories</string>
+    <string name="popular_movies">Popular Movies</string>
+    <string name="actors">Actors</string>
 </resources>

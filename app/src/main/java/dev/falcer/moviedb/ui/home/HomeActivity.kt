@@ -1,11 +1,12 @@
-package dev.falcer.moviedb
+package dev.falcer.moviedb.ui.home
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import dev.falcer.moviedb.R
 
-class MainActivity : AppCompatActivity() {
+class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_home)
     }
 }

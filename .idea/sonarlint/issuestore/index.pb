@@ -1,16 +1,6 @@
 
 ^
 .app/src/main/res/drawable/ic_chevron_right.xml,2/f/2f29437a676645d70f6e6e594cf9fd86ef264f6d
-d
-4app/src/main/res/drawable/ic_launcher_background.xml,4/9/49845c622cb06d895975c7b1e3f943e320bce688
-d
-4app/src/main/res/drawable/ic_launcher_foreground.xml,5/8/587f297f0f0eaa1dcf927b2b5f0bc5430fadf54f
-h
-8app/src/main/res/drawable-v24/ic_launcher_foreground.xml,0/7/078508c831007ccb3938b355f0d30a8368f99a8d
-b
-2app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml,8/e/8e27ba16c655f421171956147d0fde89b7d25d17
-h
-8app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml,6/e/6ec7d34b130497a10dc92abcde9b313d370a89df
 >
 app/.gitignore,5/1/51e1c5d383dfaa35e0e7e5873a0a99355a86880f
 F
@@ -66,3 +56,19 @@ p
 +app/src/main/java/dev/falcer/moviedb/App.kt,3/7/37f03ae65e18bce712e69ca4c631ef14fe3a1c03
 P
  app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+h
+8app/src/main/java/dev/falcer/moviedb/data/model/Movie.kt,1/0/10e9e41693f79641b75963d074e5cc02fd90e5dd
+h
+8app/src/main/java/dev/falcer/moviedb/di/NetworkModule.kt,5/f/5fe9db8b35681f2ac6359acaca7b127b66b783d8
+v
+Fapp/src/main/java/dev/falcer/moviedb/data/response/UpComingResponse.kt,b/d/bdebf858f6a5bafbb821b2125ee7292c7581fc24
+}
+Mapp/src/main/java/dev/falcer/moviedb/datasource/repository/MovieRepository.kt,1/5/15d310d6b59550fa5a744e764e25d98a0db059fd
+w
+Gapp/src/main/java/dev/falcer/moviedb/datasource/service/MovieService.kt,5/c/5c08481b51bfbcc3d3007bad2d938028a889764b
+j
+:app/src/main/java/dev/falcer/moviedb/utils/NetworkState.kt,d/c/dc7935fc5385832b934920ee94b4f20f86f66a22
+m
+=app/src/main/java/dev/falcer/moviedb/ui/home/HomeViewModel.kt,1/a/1a37edac7ebdf5a4a825238336c3f983327d93b5
+t
+Dapp/src/main/java/dev/falcer/moviedb/ui/home/UpComingMovieAdapter.kt,0/b/0bc04ec1a8f56afc0900be6a6ba1e4aa9a3638c6

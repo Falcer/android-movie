@@ -18,11 +18,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:contentDescription="@string/popular_movie"
-            android:scaleType="fitCenter"
-            android:background="@drawable/gradient_popular"
+            android:scaleType="centerCrop"
             tools:src="@tools:sample/avatars" />
 
         <LinearLayout
+            android:background="@drawable/gradient_popular"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="bottom|start"

@@ -25,7 +25,8 @@
                 android:layout_marginTop="@dimen/size_24dp" />
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/size_24dp">
 
                 <ProgressBar
                     android:id="@+id/pb_upcoming"
@@ -39,7 +40,8 @@
                 <androidx.viewpager2.widget.ViewPager2
                     android:id="@+id/vp_upcoming"
                     android:layout_width="match_parent"
-                    android:layout_height="@dimen/size_150dp"
+                    android:paddingHorizontal="@dimen/size_56dp"
+                    android:layout_height="@dimen/size_200dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"

@@ -23,10 +23,12 @@ android {
         debug {
             buildConfigField "String", "API_TOKEN", "\"f47dd4775b97c0f65fd31bbb6f452376\""
             buildConfigField "String", "API_URL", "\"https://api.themoviedb.org/3/\""
+            buildConfigField "String", "API_IMAGE", "\"https://image.tmdb.org/t/p/original/\""
         }
         release {
             buildConfigField "String", "API_TOKEN", "\"f47dd4775b97c0f65fd31bbb6f452376\""
             buildConfigField "String", "API_URL", "\"https://api.themoviedb.org/3/\""
+            buildConfigField "String", "API_IMAGE", "\"https://image.tmdb.org/t/p/original/\""
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }

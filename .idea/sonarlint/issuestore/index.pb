@@ -58,8 +58,6 @@ S
 .app/src/main/res/drawable/gradient_popular.xml,d/f/df7da021fb296fd8379bbe5c68a9daca10231661
 @
 app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
-^
-.app/src/main/res/layout/card_popular_movie.xml,5/8/58f7a102b98b1f9ec94c414d74903525d051aced
 l
 <app/src/main/java/dev/falcer/moviedb/ui/home/HomeActivity.kt,c/2/c26322453181b1d8bba23e890d40661c30b23277
 p

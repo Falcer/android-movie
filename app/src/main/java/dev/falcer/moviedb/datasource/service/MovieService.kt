@@ -6,7 +6,7 @@ import retrofit2.http.GET
 
 interface MovieService {
     @GET("movie/upcoming")
-    fun getUpComingMovies() : Call<UpComingResponse>
+    suspend fun getUpComingMovies() : UpComingResponse
 
 //    @GET("movie/popular")
 //    fun getPopularMovie()  : Call<PopularRespose>
